@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>404 Page Not Found</title>
+    <link rel="icon" href="/favicon.png">
+    <meta name="description" content="404 Page Not Found">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, nofollow">
+    <meta name="theme-color" content="#FF4246"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <style type="text/css">
+    @font-face {
+      font-family: 'Lato';
+      font-display: auto;
+      src: url("css/fonts/lato.woff2") format('woff2');
+    }
+    #page {
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    a {
+    text-decoration: none;
+    color: white; 
+    }
+    #errnum {
+    color: #00A0CE;
+    font-size: 1em;
+    font-weight: 900;
+    }
+    .button {
+     text-align:center;
+     padding: 10px 20px 10px 20px;
+     border: none;
+     border-radius: 10px;
+     /*background: #F36467;*/
+     background: #B30000;
+     box-shadow: 0 3px #9A0025;
+    }
+    .button:hover{
+        /*background: #E3555A;*/
+     background: #F36467;
+    }
+    .button:active{
+        /*background: #E3555A;*/
+        background: #F36467;
+        box-shadow: 0 1px #9A0025;
+        transform: translateY(2px);
+    }
+
+    </style>
+</head>
+
+
+<body>
+    <div id="page">
+
+    <div id="errpic">
+        <img src="/images/fred.jpg" alt="Error Picture">
+    </div>
+
+    <div id="errnum">
+        <h1>404</h1>
+    </div>
+
+    <div id="errbut">
+        <a href="/">
+            <p class="button">GO HOME!</p>
+        </a>
+    </div>
+
+</body>
+</html>
+
+
+

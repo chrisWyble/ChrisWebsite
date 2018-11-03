@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Chris Wyble | Official Website</title>
+    <link rel="icon" type=image/x-icon href="/favicon.png">
+    <meta name="description" content="Chris Wyble's Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, nofollow">
+    <meta name="theme-color" content="#FF4246"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126954846-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126954846-1');
+    </script>
+</head>
+
+<body class="page night">
+
+<div class="header">
+    <div id="profilepic" class="toggle">
+        <img src="/images/profile_silo.jpg" alt="Profile Picture">
+    </div>
+    <div id="name-box">
+        <h1>Chris Wyble</h1>
+    </div>
+</div>
+
+<div class="center">
+    <a href="javascript:;" onclick="alert(decodemsg('email'))"><div class="button"><i class="icon fa fa-envelope" aria-hidden="true"></i><span>Email</span></div></a>
+
+    <a href="javascript:;" onclick="window.open(decodemsg('github'), '_blank')"><div class="button"><i class="icon fa fa-github" aria-hidden="true"></i><span>GitHub</span></div></a>
+      
+    <a href="javascript:;" onclick="window.open(decodemsg('linkedin'), '_blank')"><div class="button"><i class="icon fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></div></a>
+
+    <a href="javascript:;" onclick="window.open(decodemsg('resume'), '_blank')"><div class="button"><i class="icon fa fa-file-text" aria-hidden="true"></i><span>Resume</span></div></a>
+</div>
+
+
+<div class="footer">
+    <span><a href="javascript:;" onclick="window.open(decodemsg('source'), '_blank')">© Open Source</a></span>
+<!--© 2018 Chris Wyble-->
+</div>
+
+    <script src="https://use.fontawesome.com/50b899dcd8.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            document.querySelector('.toggle').addEventListener('click', function () {
+                document.querySelector('body').classList.toggle('night');
+            });
+        })
+    </script>
+    <script src="/scripts/console.js"></script>
+    <script src="/scripts/popup.js"></script>
+
+</body>
+</html>
