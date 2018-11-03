@@ -37,8 +37,11 @@ function decodemsg(choice){
         var msg=''
     }
     return htmlentities.decode(msg)
-}
+
 function encodemsg(msg){
+	email=btoa("chriswyble@gmail.com");
+	console.log(email);
+	console.log(atob(email));
     return htmlentities.encode(msg)
 
 }
