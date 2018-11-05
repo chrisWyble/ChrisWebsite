@@ -37,9 +37,8 @@ function decodemsg(choice){
         var msg=''
     }
     return htmlentities.decode(msg)
+}
 
 function encodemsg(msg){
-
     return htmlentities.encode(msg)
-
 }
