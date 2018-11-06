@@ -166,7 +166,7 @@ margin: 5px 0px;
 }
 
 .night{
-background: #000;
+background: #1a1a1a;
 color: #fff;
 transition: background 1.3s, color 1.3s;
 -webkit-filter: invert(1) hue-rotate(180deg);
