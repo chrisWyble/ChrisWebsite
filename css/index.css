@@ -78,8 +78,8 @@ color: #333;
 #name-box {
   display:block;
   font-size: 13px;
-  color: #FFF;
-  background: #000;
+  color: #000;
+  background: #f2f2f2;
   padding: 15px 0px 15px 10px;
   width: 185px;
   vertical-align: center;
@@ -130,9 +130,10 @@ height:100px;
   text-align: left;
   box-shadow: 0 1px 1px rgba(0,0,0,.2);
   border-radius: 3px;
-  background: #FEFEFE;
+  background: #f2f2f2;
   /*color: #FF4246;*/
-  color: #ED0000;
+  /*color: #ED0000; */
+  color: #4d60e0;
   margin-top: 15px;
   margin-right: 25px;
   padding: 6px 12px;
